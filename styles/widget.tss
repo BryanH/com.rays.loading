@@ -16,16 +16,17 @@
     zIndex: 99,
 }
 
-"#loadingIndicator[platform=android]": {
-    top: '10%',
+"#loadingIndicator": {
     style: Ti.UI.ActivityIndicatorStyle.BIG,
-    zIndex: 99,
+    zIndex: 99
+}
+
+"#loadingIndicator[platform=android]": {
+    top: '10%'
 }
 
 "#loadingIndicator[platform=ios]": {
-    top: '20%',
-    style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
-    zIndex: 99,
+    top: '20%'
 }
 
 "#loadingMessageLabel": {
